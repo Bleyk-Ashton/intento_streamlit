@@ -2,7 +2,11 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from tensorflow.keras.models import load_model
-import cv2
+try:
+    import cv2
+except ImportError:
+    st.error("Error al importar OpenCV. Verifica tu archivo requirements.txt (usa opencv-python-headless).")
+
 #intento 
 # --- Cargar modelo ---
 
