@@ -2,7 +2,8 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from tensorflow.keras.models import load_model
-
+import cv2
+#intento 
 # --- Cargar modelo ---
 
 modelo_cnn = load_model("model.keras")

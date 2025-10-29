@@ -3,3 +3,4 @@ tensorflow
 opencv-python
 matplotlib
 numpy
+cv2
